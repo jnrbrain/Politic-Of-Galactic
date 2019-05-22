@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "b72d60b8-44bb-4671-9463-394b575753e9",
+            "Value": {
+                "id": "7863d6db-afae-4117-96ea-01b8842b24f2",
+                "resourcePath": "tilesets\\tile_arka\\tile_arka.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "c05f93e5-5728-467c-973a-c872802ec68a",
             "Value": {
                 "id": "9ac56e15-d7b8-40ed-84d4-9564b34572c5",
