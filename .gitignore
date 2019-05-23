@@ -1,3 +1,15 @@
 *.yy
 *.yyp
 *.yyc
+*.java
+*.jar
+*.classpath
+*.project
+*.txt
+*.xml
+*.h
+*.iso
+*.so
+*.zip
+*.ext
+*.nmeta

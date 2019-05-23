@@ -11,3 +11,4 @@ genislik=1600;
 yukseklik=1200;
 window_set_size(1920,1080);
 display_set_gui_size(1920,1080);
+audio_play_sound(muzik,10,true);
