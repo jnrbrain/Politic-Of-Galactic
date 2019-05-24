@@ -29,22 +29,22 @@ else if mouse_wheel_down()
 if window_mouse_get_x() < window_get_width()*0.1
 {
 	if x>=-3000
-	x-=point_distance(window_mouse_get_x(), 0, window_get_width()*0.1, 0)*genislik/5000;
+	x-=point_distance(window_mouse_get_x(), 0, window_get_width()*0.1, 0)*genislik/10000;
 }
 else if window_mouse_get_x() > window_get_width()*0.9
 {
 	if x<=room_width+3000
-	x+=point_distance(window_mouse_get_x(), 0, window_get_width()*0.9, 0)*genislik/5000;
+	x+=point_distance(window_mouse_get_x(), 0, window_get_width()*0.9, 0)*genislik/10000;
 }
 if window_mouse_get_y() < window_get_height()*0.1
 {
 	if y>=-3000
-	y-=point_distance(0, window_mouse_get_y(), 0, window_get_height()*0.1)*genislik/2000;
+	y-=point_distance(0, window_mouse_get_y(), 0, window_get_height()*0.1)*genislik/4000;
 }
 else if window_mouse_get_y() > window_get_height()*0.9
 {
 	if y<=room_height+3000
-	y+=point_distance(0, window_mouse_get_y(), 0, window_get_height()*0.9)*genislik/2000;
+	y+=point_distance(0, window_mouse_get_y(), 0, window_get_height()*0.9)*genislik/4000;
 }
 
 
