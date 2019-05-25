@@ -15,7 +15,8 @@ audio_play_sound(muzik,10,true);
 var lay_id = layer_get_id("Background");
 var back_id = layer_background_get_id(lay_id);
 if layer_background_get_sprite(back_id) != arkaplan
-   {
-   layer_background_sprite(back_id, arkaplan);
-   layer_background_index(back_id,choose(0,1,2,3,4));
-   }
+{
+	layer_background_sprite(back_id, arkaplan);
+	layer_background_index(back_id,choose(0,1,2,3,4));
+}
+renk=c_blue;
